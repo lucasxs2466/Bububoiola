@@ -1,9 +1,9 @@
-function Criacartão (categoria,pergunta,reposta){
+function Criacartão (categoria,pergunta,resposta){
   let container = document.getElementById(container);
   let cartao = document.createElement('article');
   cartao.className = 'RodrigoColorado';
-  cartao.innerHTML = ` 
-  <div class="conteudo-cartao">
+  cartao.innerHTML = `
+    <div class="conteudo-cartao">
 <h3>${categoria}</h3>
 <div class="pergunta-cartao">
 <p>${pergunta}</p>
@@ -13,4 +13,6 @@ function Criacartão (categoria,pergunta,reposta){
 </div>
 </div>
 `
+
+container.appendChild(cartao);
 }
