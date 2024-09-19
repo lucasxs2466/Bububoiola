@@ -1,20 +1,14 @@
-Criacartão('equações','qual é a fórmula de Bhaskara?',
-    'X=-b +- √b^2 -4ac/2')
+Criacartão('equações','qual é a fórmula de Bhaskara?','X=-b +- √b^2 -4ac/2')
 
-Criacartão('equações','qual é a fórmula do gás ideal?',
-    'PV=Nrt')
+Criacartão('equações','qual é a fórmula do gás ideal?','PV=Nrt')
 
-Criacartão('equações','fórmula geral da reta',
-    'Ax +by + c =0')
+Criacartão('equações','fórmula geral da reta','Ax +by + c =0')
 
-Criacartão('equações','fórmula geral da circunferência',
-    'x^2 +y^2 -2ax-2by + a^2+b^2-r^2=0')
+Criacartão('equações','fórmula geral da circunferência','x^2 +y^2 -2ax-2by + a^2+b^2-r^2=0')
 
-Criacartão('química','oq é uma reação de neutralização?',
-    'é uma reação entre um ácido e uma base que produz água e um sal ')
+Criacartão('química','oq é uma reação de neutralização?','é uma reação entre um ácido e uma base que produz água e um sal ')
 
-Criacartão('química','qual é a forma do ácido clorídrico?',
-    'HCI')
+Criacartão('química','qual é a forma do ácido clorídrico?','HCI')
 
 Criacartão('química','o que é uma reação endotérmica?',
     'é uma reação quimica que absorve energia na forma de calor do ambiente durante o processo')
