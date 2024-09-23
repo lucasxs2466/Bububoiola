@@ -34,4 +34,5 @@ footer{
 }
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
+    position: absolute;
 }
