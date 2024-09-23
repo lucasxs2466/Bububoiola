@@ -20,3 +20,6 @@ footer{
 #container{
     padding: 4rem;
 }
+.conteudo-cartao{
+    background-color: var(--cartao-frente);
+}
