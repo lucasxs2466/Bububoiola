@@ -19,6 +19,7 @@ footer{
 }
 #container{
     padding: 4rem;
+    display: flex;
 }
 .conteudo-cartao{
     background-color: var(--cartao-frente);
