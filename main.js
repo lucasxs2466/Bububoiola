@@ -1,5 +1,5 @@
 function Criacartão (categoria,pergunta,resposta){
-  let container = document.getElementById(container);
+  let container = document.getElementById('container');
   let cartao = document.createElement('article');
   cartao.className = 'RodrigoColorado';
   cartao.innerHTML = `
