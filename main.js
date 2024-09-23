@@ -14,5 +14,11 @@ function Criacartão (categoria,pergunta,resposta){
 </div>
 `
 
-    container.appendChild(cartao);
+let RepostaVisivel = false;
+function viraCartao(){
+  RepostaVisivel = !RepostaVisivel!;
+  RodrigoColorado.classList.toggle('active',RepostaVisivel);
+}
+RodrigoColorado.addEventListener('click', viraCartao);
+container.appendChild(cartao);
 }
