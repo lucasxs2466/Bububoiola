@@ -20,6 +20,9 @@ footer{
 #container{
     padding: 4rem;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
 }
 .conteudo-cartao{
     background-color: var(--cartao-frente);
