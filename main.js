@@ -1,3 +1,6 @@
+
+<body>
+
 function Criacartão (categoria,pergunta,resposta){
   let container = document.getElementById('container');
   let cartao = document.createElement('article');
@@ -22,3 +25,4 @@ function Criacartão (categoria,pergunta,resposta){
 RodrigoColorado.addEventListener('click', viraCartao);
 container.appendChild(cartao);
 }
+</body>
