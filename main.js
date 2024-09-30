@@ -14,8 +14,8 @@ function Criacartão (categoria,pergunta,resposta){
 </div>
 `
 
-let respostaVisivel = false;
-function viraCartao(){
+  let respostaVisivel = false;
+  function viraCartao(){
   respostaVisivel = !respostaVisivel;
   RodrigoColorado.classList.toggle('active',respostaVisivel);
 }
