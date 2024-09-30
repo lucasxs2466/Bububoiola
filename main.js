@@ -20,5 +20,5 @@ function viraCartao(){
   RodrigoColorado.classList.toggle('active',RepostaVisivel);
 }
 RodrigoColorado.addEventListener('click', viraCartao);
-container.appendChild('cartao');
+container.appendChild(RodrigoColorado);
 }
