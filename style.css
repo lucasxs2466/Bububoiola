@@ -24,6 +24,11 @@ footer{
     justify-content: space-between;
     gap: 3rem;
 }
+.RodrigoColorado{
+    margin: 1rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
 .conteudo-cartao{
     background-color: var(--cartao-frente);
     height: 100%;
@@ -31,11 +36,11 @@ footer{
     transition: transform 300ms ease-in-out;
 }
 
-.RodrigoColorado{
-    margin: 1rem;
-    flex-grow: 1;
-    flex-basis: calc(33% - 6rem);
+.conteudo-cartao p{
+    margin-top: 1rem;
+    padding: 4rem;
 }
+
 .conteudo-cartao h3{
     border: 1px solid var(--destaque);
     position: absolute;
@@ -44,16 +49,14 @@ footer{
     backface-visibility: hidden;
     border-radius: 3rem;
 }
-.conteudo-cartao p{
-    margin-top: 1rem;
-    padding: 4rem;
-}
+
 .resposta-cartao p{
     color: var(--cartao-verso);
     font-weight:  700;
 }
+
 .RodrigoColorado.active .conteudo-cartao{
-    transform: rotateY('180deg');
+    transform: rotateY(180deg);
 }
 
 .pergunta-cartao,
@@ -64,4 +67,5 @@ footer{
     width: 100%;
     box-sizing: border-box;
 }
+
 
