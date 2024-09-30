@@ -14,10 +14,10 @@ function Criacartão (categoria,pergunta,resposta){
 </div>
 `
 
-let RepostaVisivel = false;
+let respostaVisivel = false;
 function viraCartao(){
-  RepostaVisivel = !RepostaVisivel!;
-  RodrigoColorado.classList.toggle('active',RepostaVisivel);
+  respostaVisivel = !respostaVisivel!;
+  RodrigoColorado.classList.toggle('active',respostaVisivel);
 }
 RodrigoColorado.addEventListener('click', viraCartao);
 container.appendChild(cartao);
