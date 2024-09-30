@@ -47,3 +47,7 @@ footer{
 .RodrigoColorado.active .conteudo-cartao{
     transform: rotateY('180deg');
 }
+.resposta-cartao p{
+    color: var(--cartao-verso);
+    font-weight:  700;
+}
