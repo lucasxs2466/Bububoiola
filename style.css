@@ -44,10 +44,19 @@ footer{
     margin-top: 1rem;
     padding: 4rem;
 }
-.RodrigoColorado.active .conteudo-cartao{
-    transform: rotateY('180deg');
-}
 .resposta-cartao p{
     color: var(--cartao-verso);
     font-weight:  700;
+}
+.RodrigoColorado.active .conteudo-cartao{
+    transform: rotateY('180deg');
+}
+
+.pergunta-cartao,
+.resposta-cartao{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
