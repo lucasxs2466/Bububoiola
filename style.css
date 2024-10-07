@@ -18,7 +18,6 @@ footer{
     text-align: center;
 }
 #container{
-    background-color: violet;
     padding: 4rem;
     display: flex;
     flex-wrap: wrap;
@@ -26,6 +25,7 @@ footer{
     gap: 6rem;
 }
 .RodrigoColorado{
+    background-color: violet;
     margin: 1rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
