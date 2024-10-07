@@ -1,10 +1,10 @@
 :root{
-    --fundo: #a6f5e1;
-    --cartao-frente: #ffffff;
-    --cartao-verso: #ff0000;
+    --fundo: #dbebff;
+    --cartao-frente: #d3d3d3;
+    --cartao-verso: #000000;
     --branco: white;
     --preto: black;
-    --destaque: #b0c4de; 
+    --destaque: #ff00b3; 
 }
 body{
     background-color: var(--fundo);
