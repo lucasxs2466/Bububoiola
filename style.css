@@ -46,11 +46,12 @@ footer{
     position: absolute;
     padding: 0.5rem;
     margin: 0.6rem;
-
+    backface-visibility: hidden;
     border-radius: 3rem;
 }
 
 .resposta-cartao p{
+    border-color: var(--cartao-verso);
     color: var(--cartao-verso);
     font-weight:  700;
 }
