@@ -33,7 +33,3 @@ CriaCartao('Biologia','qual a funčão da mitocôndria','respiração das célul
 CriaCartao('História','quem foi o líder da revolução russa em 1917','Vladimir Lênin')
 
 CriaCartao('História','o que foi o tratado de Versalhes','acordo que encerrou a primeira guerra mundial em 1919')
-
-CriaCartao('História','o que foi o iluminismo','foi um movimento intelectual do séc XVIII que enfatizou a razão a ciência e o questionamento das autoridades da religião')
-
-CriaCartao('História','o que foram os códigos de Hammurabi','os códigos de Hammurabi foram um dos primeiros conjuntos de leis escritas, promulgadas pelo rei da Babilônia Hammurabi no séc XVIII a.C')
