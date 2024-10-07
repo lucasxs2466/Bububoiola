@@ -18,7 +18,7 @@ footer{
     text-align: center;
 }
 #container{
-    padding: 6rem;
+    padding: 4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
