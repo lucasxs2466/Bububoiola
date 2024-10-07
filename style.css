@@ -46,7 +46,7 @@ footer{
     position: absolute;
     padding: 0.5rem;
     margin: 0.6rem;
-    backface-visibility: hidden;
+
     border-radius: 3rem;
 }
 
