@@ -4,7 +4,7 @@
     --cartao-verso: #000000;
     --branco: white;
     --preto: black;
-    --destaque: #ff00b3; 
+    --destaque: #87b3e6; 
 }
 body{
     background-color: var(--fundo);
