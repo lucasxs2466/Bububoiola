@@ -51,7 +51,7 @@ footer{
 }
 
 .resposta-cartao p{
-    color: var(--cartao-verso);
+    color: var(--preto);
     font-weight:  700;
 }
 
