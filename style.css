@@ -18,6 +18,7 @@ footer{
     text-align: center;
 }
 #container{
+    background-color: violet;
     padding: 4rem;
     display: flex;
     flex-wrap: wrap;
